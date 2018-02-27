@@ -1,8 +1,8 @@
-/* this script generates mock data for local development.
-   this way you don't have to point to an actual API,
+/* This script generates mock data for local development.
+   This way you don't have to point to an actual API,
    but you can enjoy realistic, but randomized data,
    and rapid page loads due to local, static data.
-*/
+ */
 
 /* eslint-disable no-console */
 
