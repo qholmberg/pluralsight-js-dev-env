@@ -15,7 +15,7 @@ function get(url) {
   return fetch(baseUrl + url).then(onSuccess, onError);
 }
 
-// can't call func delete since reserved word.
+// Can't call func delete since reserved word.
 function del(url) {
   const request = new Request(baseUrl + url, {
     method: 'DELETE'
